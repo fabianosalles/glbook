@@ -1,4 +1,6 @@
 build:
-	g++ main.cpp -lGL -lGLU -lglut -o gltinit
+	g++ main.cpp -lGL -lGLU -lglut -o glinit
+clean:
+	rm glinit
 
 	
